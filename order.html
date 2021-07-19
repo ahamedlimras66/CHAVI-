@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>CHAVI&mdash;COCO PEAT</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+<style>
+
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+  }
+
+  .timeline {
+      position: relative;
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 15px 0;
+  }
+
+  .timeline::after {
+      content: '';
+      position: absolute;
+      width: 5px;
+      background: #E94B3C;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -2.5px;
+  }
+
+  .containera {
+      padding: 30px 60px;
+      position: relative;
+      background: inherit;
+      width: 50%;
+  }
+
+  .containera.left {
+      left: 0;
+  }
+
+  .containera.right {
+      left: 50%;
+  }
+
+  .containera .icon {
+      position: absolute;
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      top: 30px;
+      right: -30px;
+      padding: 9px 0;
+      background: #ffffff;
+      border: 5px solid #E94B3C;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      color: #E94B3C;
+      z-index: 1;
+  }
+
+  .containera.right .icon {
+      left: -30px;
+  }
+
+  .containera .date {
+      position: absolute;
+      display: inline-block;
+      height: 30px;
+      min-width: 60px;
+      top: 45px;
+      padding: 6px 8px;
+      background: #E94B3C;
+      text-align: center;
+      font-size: 14px;
+      color: #ffffff;
+      z-index: -1;
+  }
+
+  .containera.left .date {
+      right: -86px;
+      border-radius: 0 30px 30px 0;
+  }
+
+  .container.right .date {
+      left: -86px;
+      border-radius: 30px 0 0 30px;
+  }
+
+  .containera::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50px;
+    right: 28px;
+    z-index: 1;
+    border: 10px solid;
+    border-color: transparent #E94B3C transparent transparent;
+  }
+
+  .containera.right::before {
+    left: 28px;
+    border-color: transparent transparent transparent #E94B3C;
+  }
+
+  .containera .content {
+      padding: 30px 45px;
+      background: #ffffff;
+      position: relative;
+      border: 5px solid #eeeeee;
+      border-radius: 500px 0 500px 500px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+  }
+
+  .containera.right .content {
+      border-radius: 0 500px 500px 500px;
+  }
+
+  .containera .content h2 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: normal;
+      color: #E94B3C;
+  }
+
+  .containera .content p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 22px;
+      color: #454545;
+  }
+
+  @media (max-width: 767.98px) {
+      .timeline::after {
+          left: 90px;
+      }
+
+      .containera {
+          width: 100%;
+          padding-left: 135px;
+          padding-right: 30px;
+      }
+
+      .containera.right {
+          left: 0%;
+      }
+
+      .containera.left .icon,
+      .containera.right .icon {
+          width: 45px;
+          height: 45px;
+          top: 37.5px;
+          font-size: 18px;
+          left: 67.5px;
+      }
+
+      .containera.left::before,
+      .containera.right::before {
+          left: 110px;
+          border-color: transparent transparent transparent #E94B3C;
+      }
+
+      .containera.left .date,
+      .containera.right .date {
+          right: auto;
+          left: 15px;
+          border-radius: 30px 0 0 30px;
+      }
+
+      .containera.left .content,
+      .containera.right .content {
+          border-radius: 0 500px 500px 500px;
+      }
+  }
+
+    .fcc-btn {
+      background-color: #199319;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+    }
+    .button {
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+  </style>
+    </head>
+
+    <body>
+
+
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+
+
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" align="e" width="250" height="90">
+                        </a>
+
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                          
+
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="section" id="menu">
+        <div class="container">
+            <div class="row">
+
+                    <div class="section-heading">
+                      <div class="timeline">
+                          <div class="containera left">
+                              <i class="icon fa fa-home"></i>
+                              <div class="date">15 Dec</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="containera right">
+                              <i class="icon fa fa-gift"></i>
+                              <div class="date">22 Oct</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="containera left">
+                              <i class="icon fa fa-user"></i>
+                              <div class="date">10 Jul</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="containera right">
+                              <i class="icon fa fa-running"></i>
+                              <div class="date">18 May</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="containera left">
+                              <i class="icon fa fa-cog"></i>
+                              <div class="date">10 Feb</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="containera right">
+                              <i class="icon fa fa-certificate"></i>
+                              <div class="date">01 Jan</div>
+                              <div class="content">
+                                  <h2>Lorem ipsum dolor sit amet</h2>
+                                  <p>
+                                      Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/images/wlogo.png" alt=""  width="230" height="100"></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <div class="left-text-content">
+                        <p>© Copyright.
+
+                        <br>Design: </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+
+    <script src="assets/js/custom.js"></script>
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+
+            });
+        });
+
+    </script>
+  </body>
+</html>
